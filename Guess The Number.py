@@ -1,11 +1,11 @@
 # Its a Guess The Number Game
 import random
 
-print('Name')
+print('Enter Your Name:-')
 name = input()
-print('Hiii ' + name + ' Guess the number(1-20). (6 tries)')
+print('Hiii ' + name + 'Try to Guess the number between(1-20). (You Have 6 tries. Try as hard as you can. Good Luck)')
 secretNum = random.randint(1,20)
-print(secretNum)
+#print(secretNum) For testing Purposes
 for guessTaken in range(1,7):
     print('Enter Ur Guess:')
     guess = int(input())
